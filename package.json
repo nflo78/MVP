@@ -1,0 +1,40 @@
+{
+  "name": "mvp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon --watch server server/index.js",
+    "client-dev": "npx webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nflo78/MVP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nflo78/MVP/issues"
+  },
+  "homepage": "https://github.com/nflo78/MVP#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "file-loader": "^6.2.0",
+    "morgan": "^1.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.4",
+    "@babel/preset-react": "^7.22.3",
+    "@webpack-cli/generators": "^3.0.6",
+    "babel-loader": "^9.1.2",
+    "html-webpack-plugin": "^5.5.1",
+    "nodemon": "^2.0.22",
+    "webpack": "^5.85.1",
+    "webpack-cli": "^5.1.3"
+  }
+}
